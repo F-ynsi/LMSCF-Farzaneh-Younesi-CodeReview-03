@@ -40,8 +40,11 @@ a {
 
 
 .container {
+	position: relative;
 	padding-left: 0%;
 	padding-right: 0%;}
+
+
 
 .trafic {
 	width: 100%;
@@ -50,10 +53,26 @@ a {
 
 .text-left {
 	position: absolute;
-	bottom: 300px;
+	bottom: 970px;
 	left: : 20px;
 	color: white;
 	padding-left: 40px;}
+
+
+.form {
+	border:  1px solid lightgrey;
+	position: absolute;
+	top: -160px;
+	left: 0;
+	overflow: hidden;
+	background-color: white;
+	width: 80%;
+	height: 100%;
+	margin-top: 690px;
+	margin-left: 130px;
+	text-align: center;
+	opacity: 0.7;
+}
 
 
 .paragraph {
@@ -67,8 +86,9 @@ a {
 	padding-right: 0%}
 
 
-
 .boxes {
+	display: flex;
+
 	padding-top: -1px;
 	padding-left: 100px;
 	margin: 50px;}
@@ -81,10 +101,11 @@ a {
 	height: 300px;
 	width: 350px;
 	padding-top: 30px;
-	float: left;
+	
 	margin: 100px;
 	line-height: 4px;
-	text-indent: 30px;}	
+	text-indent: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}	
 
 
 
@@ -94,10 +115,11 @@ a {
 	height: 300px;
 	width: 350px;
 	padding-top: 30px;
-	float: left;
+	
 	margin: 100px;
 	line-height: 4px;
-	text-indent: 30px;}
+	text-indent: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 
 
@@ -111,7 +133,80 @@ a {
 	line-height: 30px;}
 
 
-.footermenu {
-
+footer{
+    background-color: #191919;
+}
+#logofooter{
+    display: flex;
+	justify-content: flex-end
+}
+footer p {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+footer ul{
+    display: flex;
+    padding-left: 30px;
+}
+footer li{
+    list-style: none;
+    font-size: 28px;
+    padding-right: 30px;
 
 }
+
+
+.personal{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.personal1{
+    display: block;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.kontakt-cols{
+    display: block;
+    padding-bottom: 30px;
+}
+::placeholder{
+    font-size: 20px;
+    color: lightgrey;
+}
+button{
+    background-color: #329235;
+    padding: 15px 60px;
+    border-radius: 30px;
+    color: white;
+    font-size: 24px;
+}
+label{
+    font-size: 38px;
+}
+.kontakt-cols div{
+    font-size: 24px;
+}
+input{
+    border: 1px solid black;
+    padding:15px 20px;
+    font-size: 18px;
+    background-color: rgba(123, 122, 122, 0.714);
+    border-radius: 10px;
+    color: white;
+}
+select{
+    font-size: 18px;
+    height: 50px;
+    width: 230px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(123, 122, 122, 0.714);
+    color: white;
+}
+
+
+

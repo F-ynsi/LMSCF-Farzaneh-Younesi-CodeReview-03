@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>car-insurance company</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		
 	</head>
 
 	<body>
@@ -25,7 +26,7 @@
 				</ul>
 			</nav>
 		</header>
-		
+	<main>
 		<div class="container">
 
 				<img class="trafic" src="img/traffic-332857_1920.jpg" alt="trafic">
@@ -38,7 +39,6 @@
 					<p>We'll guide you through available coverage types,</p>
 					<p>starting with who and what is covered.</p>
 				</div>
-		</div>
 		</div>
 		<div class="boxes">
 				<div class="leftbox">
@@ -79,21 +79,77 @@
 						<p> Replacement</p>
 
 					</div>
+				</div>
+
+					
 		</div>
-
-
-				
-
-
-
-
-				
-			
-
-
-
-
-
+					<div class="form">
+						<h1>Great coverage begins</h1>
+						<h1>with a custom quote</h1>
+			<div class="personal">
+                <div class="personal1">
+                    <div class="kontakt-cols">
+                        <div>
+                            <label for="name">Your name:</label>
+                        </div>
+                        <div>
+                            <input type="text" id="name"  placeholder="YOUR NAME" />
+                        </div>
+                    </div>
+                    <div class="kontakt-cols">
+                        <div>
+                            <label for="countries">Country:</label>
+                        </div>
+                        <div>
+                            <select id="countries">
+                                <option value="austria" id="austria">Austria</option>
+                                <option value="hungary" id="hungary">Hungary</option>
+                                <option value="greece" id="greece">Greece</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="personal1">
+                    <div class="kontakt-cols">
+                        <div>
+                            <label for="number">Your Age:</label>
+                        </div>
+                        <div>
+                            <input type="number" id="number"  placeholder="YOUR AGE"/>
+                        </div>
+                    </div>
+                    <div class="kontakt-cols">
+                        <div>
+                            <label for="power">Horesepower of your car:</label>
+                        </div>
+                        <div>
+                            <input type="number" id="power"  placeholder="Horsepower"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" onclick="Insurance()" id="sumbitButton">Calculate</button>
+                <p id="result"></p>
+					
+					</div>
+			</main>
+		<footer>
+			 <div>
+            <nav class="Menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html">Team</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="logofooter">
+            <a href="index.html"><img src="img/logo-inv.png" alt="logo" ></a>
+        </div>
+        <div>
+            <p>Farzaneh Younesi - CodeFactory 2018</p>
+        </div>
+		</footer>
+		<script src="script.js"></script>
 
 
 		
